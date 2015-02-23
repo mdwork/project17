@@ -63,6 +63,7 @@ a:hover                        { text-decoration:none; }
 }
 .wrap-header {
     overflow: hidden;
+    margin-bottom: 35px;
     background: #F7F7F7;
 }
 /*----------------------------------------------------------------------------------*/
@@ -249,11 +250,51 @@ a:hover                        { text-decoration:none; }
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------CONTENT--------------------------------------*/
 /*----------------------------------------------------------------------------------*/
+.main-content {
+    float: left;
+    width: 665px;
+}
+    .box-cat {
+        margin-bottom: 30px;
+    }
+        .name-section-grey {
+            border-bottom: 1px solid #333;
+        }
+            .name-section-grey h3,
+            .name-section-grey h3:hover {
+                background: #333;
+                font-weight: 400;
+            }
 
+            .list-cat li {
+                padding: 8px 5px 8px 50px;
+                margin-bottom: 1px;
+                background: url("../images/sidebar/filter_icons_category.png") 13px 7px no-repeat #E5E5E5;
+            }
+.list-cat .news {
+    background-position: 13px -32px;
+}
+.list-cat .training {
+    background-position: 14px -71px;
+}
+.list-cat .useful {
+    background-position: 14px -111px;
+}
+                .list-cat a {
+                    color: #303330;
+                    font-size: 18px;
+                    text-decoration: none;
+                }
+                .list-cat a:hover {
+                    text-decoration: underline;
+                }
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------SIDEBAR--------------------------------------*/
 /*----------------------------------------------------------------------------------*/
-
+.sidebar {
+    float: right;
+    width: 305px;
+}
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------FOOTER---------------------------------------*/
 /*----------------------------------------------------------------------------------*/
