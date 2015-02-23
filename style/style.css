@@ -147,11 +147,16 @@ a:hover                        { text-decoration:none; }
         color: #fff;
         background: url("../images/header/bg_subscription_block.jpg") repeat;
     }
+    .sub-header .content {
+        position: relative;
+        padding-top: 75px;
+        height: 450px;
+    }
         .wrap-foto-man {
             position: absolute;
             z-index: 0;
             top: 5px;
-            right: -45px;
+            right: -205px;
             display: block;
             width: 846px;
             height: 525px;
@@ -169,7 +174,7 @@ a:hover                        { text-decoration:none; }
         }
         .sub-header .big-text {
             width: 535px;
-            margin: 75px 0 25px;
+            margin-bottom: 25px;
             font-size: 35px;
         }
         .sub-header .small-text {
@@ -180,7 +185,6 @@ a:hover                        { text-decoration:none; }
         .subscribe-form {
             position: absolute;
             bottom: 65px;
-
         }
             .subscribe-form fieldset {
                 display: block;
