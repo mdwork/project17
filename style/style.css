@@ -63,13 +63,39 @@ a:hover                        { text-decoration:none; }
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------HEADER---------------------------------------*/
 /*----------------------------------------------------------------------------------*/
-.header {}
+.header {
+    overflow: hidden;
+    position: relative;
+    padding: 11px 0;
+}
+    .main-logo {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 10px;
+    }
     .nav {
         overflow: hidden;
+        padding: 10px 0;
     }
         .nav li {
             float: left;
         }
+            .nav a {
+                display: block;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+    .main-nav ul {
+        float: right;
+    }
+    .sub-header {
+        height: 525px;
+    }
+        .sub-header .big-text {
+
+        }
+        .sub-header .small-text {}
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------CONTENT--------------------------------------*/
 /*----------------------------------------------------------------------------------*/
