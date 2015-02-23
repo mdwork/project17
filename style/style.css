@@ -259,8 +259,60 @@ a:hover                        { text-decoration:none; }
 /*----------------------------------------------------------------------------------*/
 .wrap-footer {
     margin-top: -116px;
+    background: url("../images/footer/footer_bg.jpg");
 }
-    .footer {}
+    .footer {
+        overflow: hidden;
+        padding: 10px 0 16px;
+    }
+        .nav-footer {
+            margin-bottom: 15px;
+        }
+            .nav-footer li:before {
+                background: rgba(255, 255, 255, 0.3);
+            }
+            .nav-footer a {
+                color: #fff;
+            }
+        .footer-logo {
+            float: left;
+        }
+        .list-soc-links {
+            float: right;
+        }
+            .list-soc-links li {
+                overflow: hidden;
+                float: left;
+                margin-left: 9px;
+                background: url("../images/footer/filter_soc_links.png") no-repeat;
+            }
+            .list-soc-links li:first-child {
+                margin-left: 0;
+            }
+            .list-soc-links li:hover {
+                opacity: 0.8;
+            }
+            .list-soc-links .fb {
+                background-position: -41px 0;
+            }
+            .list-soc-links .vk {
+                background-position: -83px 0;
+            }
+            .list-soc-links .tw {
+                background-position: -125px 0;
+            }
+            .list-soc-links .od {
+                background-position: -167px 0;
+            }
+            .list-soc-links .aaa {
+                background-position: -208px 0;
+            }
+                .list-soc-links a {
+                    display: block;
+                    width: 34px;
+                    height: 34px;
+                    text-indent: -9999px;
+                }
 
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------OTHER----------------------------------------*/
