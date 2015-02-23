@@ -254,16 +254,36 @@ a:hover                        { text-decoration:none; }
     float: left;
     width: 665px;
 }
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------SIDEBAR--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.sidebar {
+    float: right;
+    width: 305px;
+}
     .box-cat {
         margin-bottom: 30px;
     }
         .name-section-grey {
             border-bottom: 1px solid #333;
         }
+        .name-section-orange {
+            border-bottom: 1px solid #F67004;
+        }
             .name-section-grey h3,
-            .name-section-grey h3:hover {
+            .name-section-orange h3 {
+                width: 200px;
+                padding: 8px 0 7px;
+                font-size: 20px;
+                color: #fff;
+                text-transform: uppercase;
+                text-align: center;
                 background: #333;
                 font-weight: 400;
+            }
+            .name-section-orange h3 {
+                background: #F67004;
             }
 
             .list-cat li {
@@ -271,15 +291,15 @@ a:hover                        { text-decoration:none; }
                 margin-bottom: 1px;
                 background: url("../images/sidebar/filter_icons_category.png") 13px 7px no-repeat #E5E5E5;
             }
-.list-cat .news {
-    background-position: 13px -32px;
-}
-.list-cat .training {
-    background-position: 14px -71px;
-}
-.list-cat .useful {
-    background-position: 14px -111px;
-}
+            .list-cat .news {
+                background-position: 13px -32px;
+            }
+            .list-cat .training {
+                background-position: 14px -71px;
+            }
+            .list-cat .useful {
+                background-position: 14px -111px;
+            }
                 .list-cat a {
                     color: #303330;
                     font-size: 18px;
@@ -288,13 +308,38 @@ a:hover                        { text-decoration:none; }
                 .list-cat a:hover {
                     text-decoration: underline;
                 }
-/*----------------------------------------------------------------------------------*/
-/*-------------------------------------SIDEBAR--------------------------------------*/
-/*----------------------------------------------------------------------------------*/
-.sidebar {
-    float: right;
-    width: 305px;
-}
+        .search-form {
+            margin-bottom: 30px;
+            padding: 10px;
+            background: #E5E5E5;
+        }
+            .search-form input {
+                border: 1px solid #B0B0B0;
+            }
+            .search-form .text {
+                height: 34px;
+                width: 200px;
+                padding: 0 15px;
+            }
+            .search-form .search {
+                width: 34px;
+                height: 34px;
+                margin-left: 8px;
+                background: #F67004 url("../images/sidebar/search_icon.png") no-repeat center;
+                text-indent: -9999px;
+            }
+        .banner {
+            position: relative;
+        }
+            .banner .text {
+                position: absolute;
+                top: 30px;
+                width: 100%;
+                color: #000;
+                font-size: 18px;
+                font-weight: bold;
+                text-align: center;
+            }
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------FOOTER---------------------------------------*/
 /*----------------------------------------------------------------------------------*/
