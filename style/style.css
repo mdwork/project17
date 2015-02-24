@@ -207,7 +207,9 @@ a:hover                        { text-decoration:none; }
                 .subscribe-form li:first-child {
                     margin-left: 0;
                 }
-                    .btn-big {
+                    .btn-big,
+                    a.btn-big {
+                        display: block;
                         width: 200px;
                         padding: 8px 0 7px;
                         font-size: 20px;
@@ -215,6 +217,7 @@ a:hover                        { text-decoration:none; }
                         background: #F67004;
                         text-transform: uppercase;
                         text-align: center;
+                        text-decoration: none;
 
                         -webkit-transition: all .3s;
                         -moz-transition: all .3s;
@@ -253,14 +256,87 @@ a:hover                        { text-decoration:none; }
 .main-content {
     float: left;
     width: 665px;
+    margin-bottom: 30px;
 }
-
+    .list-cat-articles {
+        overflow: hidden;
+        margin-bottom: 45px;
+        border-bottom: 1px solid #FF7200;
+    }
+        .list-cat-articles li {
+            float: left;
+        }
+            .list-cat-articles a {
+                width: auto;
+                min-width: 160px;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            .list-cat-articles .inactive {
+                background: transparent;
+                color: #2f3334;
+            }
+    .list-articles {}
+        .list-articles > li {
+            overflow: hidden;
+            padding: 14px 13px;
+            margin-bottom: 30px;
+            border: 1px solid #F8F8F8;
+            border-bottom: 1px solid #D9D9D9;
+        }
+            .wrap-img-article {
+                float: left;
+                margin-right: 27px;
+            }
+                .info-article {
+                    overflow: hidden;
+                    text-align: center;
+                }
+                    .info-article li {
+                        display: inline;
+                        margin-left: 4px;
+                        font-size: 10px;
+                    }
+                    .info-article li:first-child {
+                        margin: 0;
+                    }
+                        .info-article li:before {
+                            content: '|';
+                            display: inline;
+                            margin-right: 4px;
+                        }
+                        .info-article li:first-child:before {
+                            display: none;
+                        }
+            .content-article {
+                overflow: hidden;
+            }
+                .content-article h2 {
+                    margin-bottom: 15px;
+                    font-weight: 400;
+                    font-size: 17px;
+                    text-transform: uppercase;
+                    line-height: 1.4;
+                }
+                .content-article p {
+                    line-height: 1.75;
+                }
+                    a.more-info {
+                        color: #4757f3;
+                    }
+        a.link-go-blog {
+            float: right;
+            color: #ff7200;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------SIDEBAR--------------------------------------*/
 /*----------------------------------------------------------------------------------*/
 .sidebar {
     float: right;
     width: 305px;
+    margin-bottom: 30px;
 }
     .box-cat {
         margin-bottom: 30px;
