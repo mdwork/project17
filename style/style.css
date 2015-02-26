@@ -146,7 +146,7 @@ a:hover                        { text-decoration:none; }
         position: relative;
         height: 525px;
         color: #fff;
-        background: url("../images/header/bg_subscription_block.jpg") repeat;
+        background: url("../images/header/bg_block.jpg") repeat;
     }
     .sub-header .content {
         position: relative;
@@ -421,7 +421,7 @@ a:hover                        { text-decoration:none; }
 /*----------------------------------------------------------------------------------*/
 .wrap-footer {
     margin-top: -116px;
-    background: url("../images/footer/footer_bg.jpg");
+    background: url("../images/header/bg_block.jpg");
 }
     .footer {
         overflow: hidden;
